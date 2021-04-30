@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/sign_up_for_free"/>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/sigh_up_back_color"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="10"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/google"
+            android:background="@drawable/google_back_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:text="@string/sign_up_with_google"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or_sign_up_with_email"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/emailField1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_edit_text_cut"
+            android:drawableStart="@drawable/ic__mail_outline"
+            android:drawablePadding="12dp"
+            android:hint="@string/email"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <EditText
+            android:id="@+id/passwordField1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custom_edit_text_cut"
+            android:drawableStart="@drawable/ic_vpn_key"
+            android:drawablePadding="12dp"
+            android:hint="@string/password"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="268dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_edit_text_cut"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/get_started"/>
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Already have an account? Log in"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

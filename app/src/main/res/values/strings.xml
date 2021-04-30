@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sign Up UI Design</string>
+    <string name="sign_up_for_free">Sign up for free</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="or_sign_up_with_email">Or sign up with email</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="get_started">Get Started</string>
+</resources>
