@@ -48,7 +48,7 @@
             android:textColor="@color/white"
             android:gravity="center"
             android:layout_gravity="center"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:text="@string/sign_up_with_google"/>
 
     </LinearLayout>
@@ -58,7 +58,7 @@
         android:layout_height="0.5dp"
         android:layout_gravity="center"
         android:layout_marginTop="20sp"
-        android:background="@color/black"/>
+        android:background="#202020"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -84,6 +84,7 @@
             android:background="@drawable/custom_edit_text_cut"
             android:drawableStart="@drawable/ic__mail_outline"
             android:drawablePadding="12dp"
+            android:inputType="textEmailAddress"
             android:hint="@string/email"
             android:paddingStart="12dp"
             android:paddingEnd="12dp" />
@@ -95,6 +96,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
+            android:inputType="textPassword"
             android:background="@drawable/custom_edit_text_cut"
             android:drawableStart="@drawable/ic_vpn_key"
             android:drawablePadding="12dp"
